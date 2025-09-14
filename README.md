@@ -1,11 +1,107 @@
-# Sample Snack app
+# React Native Assignment – Monova
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+This project replicates the reference UI and interaction flow using **Expo (React Native Web)** with mocked JSON data and state management.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+---
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+##  Live Demo
+- **Expo Snack Link**: https://snack.expo.dev/@aravindbollam27/manova-react-native-assignment-  
+- **GitHub Repo**: https://github.com/aravindbollam27/react-native-assignment-monova
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+---
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Features
+- **Three main tabs**:  
+  - **Collections** → Shows Work / Leisure / Date Night combos (Top + Bottom + Accessory), with tag filters.  
+  - **Outfits** → Clean card view of styled outfits (no filters).  
+  - **Items** → Grid of all clothing items with interactive filters (Type, Style, Mood, Color).  
+
+- **Interactive filters**:  
+  - Filter items by category, style, mood, or color.  
+  - Active filters displayed as chips.  
+
+- **Outfit/Collection combos**:  
+  - Always include **Top + Bottom + Accessory**.  
+  - No repeated items within the same tag preview.  
+
+- **Add New Combo**:  
+  - Interactive `+ Add new` chip opens a modal to create your own combos.  
+
+- **Polished UI**:  
+  - Pixel-perfect cards with images, titles, and category badges.  
+  - Smooth scroll views and responsive layout.  
+
+---
+
+## Tech Stack
+- **React Native** with **Expo** (Snack environment)  
+- **TypeScript** for type safety  
+- **React Native Picker** for dropdowns  
+- **React Native Animated API** (for smooth interactions, optional)  
+
+---
+##  Project Structure
+react-native-assignment/
+│
+├── App.tsx # Main app file (tabs, navigation, state, UI)
+├── index.ts # Entry point
+├── package.json # Dependencies
+├── tsconfig.json # TypeScript config
+├── README.md # Documentation (this file)
+│
+├── assets/ # Images used in the app
+│ ├── beige-trouser.jpg
+│ ├── black-crop-top.jpg
+│ ├── black-jeans.jpg
+│ ├── brown-bag.jpg
+│ ├── brown-sandals.jpg
+│ ├── brown-trousers.jpg
+│ ├── casual-brown-tshirt.jpg
+│ ├── denim-crop-top.jpg
+│ ├── denim-shorts.jpg
+│ ├── earrings.jpg
+│ ├── gold-earrings.jpg
+│ ├── green-dress.jpg
+│ ├── grey-tshirt.jpg
+│ ├── knit-top.jpg
+│ ├── lemon-dress.jpg
+│ ├── light-brown-flats.jpg
+│ ├── navy-blue-jeans.jpg
+│ ├── printed-blouse.jpg
+│ ├── red-earrings.jpg
+│ ├── round-bag.jpg
+│ ├── sky-tee.jpg
+│ ├── small-bag.jpg
+│ ├── striped-shirt.jpg
+│ ├── sunglasses.jpg
+│ ├── tote-bag.jpg
+│ └── wide-leg-trousers.jpg
+│
+└──app.json
+├── Index.ts
+└── AssetExample.js
+
+---
+
+## ⚡ Setup & Run
+
+### Install dependencies
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/aravindbollam27/react-native-assignment-monova.git
+   cd react-native-assignment-monova
+   
+### Install dependencies
+npm install
+
+### Start Expo 
+npx expo start
+
+### Run the project 
+Press w → Run in your browser with Expo Web.
+Scan QR code with Expo Go app on iOS/Android.
+
+
+
+
+## 📂 Project Structure
