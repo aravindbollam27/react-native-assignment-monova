@@ -101,7 +101,3 @@ npx expo start
 Press w → Run in your browser with Expo Web.
 Scan QR code with Expo Go app on iOS/Android.
 
-
-
-
-## 📂 Project Structure
